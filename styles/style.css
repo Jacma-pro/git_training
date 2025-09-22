@@ -42,6 +42,13 @@ body .loader-container .loader {
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
+body .spinner-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
 
 @keyframes spin {
   0% {
