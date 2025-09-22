@@ -27,9 +27,9 @@ body {
     .loader-container {
         display: flex;
         justify-content: flex-start;
-
         flex-direction: column;
         width: 100%;
+        gap: 10px;
 
         .loader {
             width: 50px;
