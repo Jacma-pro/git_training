@@ -21,6 +21,11 @@ body {
   width: 100%;
   margin: 20px;
 }
+body .separator {
+  width: 100%;
+  border: 1px solid #ffffff;
+  margin: 20px 0;
+}
 body .loader-container {
   display: flex;
   justify-content: flex-start;
