@@ -13,6 +13,6 @@ touch index.html
 git add .
 git commit -m "init git project"
 
-
-mkdir styles
-touch styles/style.scss
+git branch -M main
+git remote add origin https://github.com/Jacma-pro/git_training.git
+git push -u origin main
