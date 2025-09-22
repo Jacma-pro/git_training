@@ -67,6 +67,9 @@ body .text-container p {
   font-family: Poppins, sans-serif;
   animation: scale200 2s infinite, colorRed2Blue 4s infinite;
 }
+body .text-container p:hover {
+  animation: scale200 2s infinite, colorRed2Blue 4s infinite, spin 1s linear;
+}
 
 @keyframes spin {
   0% {

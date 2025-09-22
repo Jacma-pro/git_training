@@ -75,6 +75,9 @@ body {
             font-family: Poppins, sans-serif;
             animation: scale200 2s infinite, colorRed2Blue 4s infinite;
         }
+        p:hover {
+            animation: scale200 2s infinite, colorRed2Blue 4s infinite, spin 1s linear;
+        }
     }
 }
 
