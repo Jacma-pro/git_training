@@ -65,6 +65,7 @@ body .text-container {
 body .text-container p {
   font-size: 100px;
   font-family: Poppins, sans-serif;
+  animation: scale 2s infinite;
 }
 
 @keyframes spin {
@@ -73,5 +74,16 @@ body .text-container p {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
   }
 }/*# sourceMappingURL=style.css.map */
