@@ -16,3 +16,8 @@ git commit -m "init git project"
 git branch -M main
 git remote add origin https://github.com/Jacma-pro/git_training.git
 git push -u origin main
+
+....
+
+git push
+```
