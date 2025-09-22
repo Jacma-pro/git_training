@@ -12,4 +12,7 @@ touch commande_git.md
 touch index.html
 git add .
 git commit -m "init git project"
-```
+
+
+mkdir styles
+touch styles/style.scss
