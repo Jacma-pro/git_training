@@ -24,4 +24,11 @@ body .loader-container {
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
+}
+body .loader-container .loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ffffff;
+  border-top: 5px solid #f5f5f5;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
