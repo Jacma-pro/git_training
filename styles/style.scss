@@ -73,7 +73,7 @@ body {
         p {
             font-size: 100px;
             font-family: Poppins, sans-serif;
-            animation: scale 2s infinite;
+            animation: scale200 2s infinite, colorRed2Blue 4s infinite;
         }
     }
 }
@@ -89,7 +89,7 @@ body {
     }
 }
 
-@keyframes scale {
+@keyframes scale200 {
     0% {
         transform: scale(1);
     }
@@ -100,5 +100,19 @@ body {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes colorRed2Blue {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
     }
 }
