@@ -74,9 +74,22 @@ body .heart-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   height: 100%;
+}
+body .heart-container .heart-left,
+body .heart-container .heart-right {
+  width: 50px;
+  height: 100px;
+  background-color: rgb(229, 12, 110);
+  border-radius: 50px 50px 0 0;
+}
+body .heart-container .heart-left {
+  transform: rotate(-45deg);
+}
+body .heart-container .heart-right {
+  transform: rotate(45deg);
 }
 
 @keyframes spin {
